@@ -3,17 +3,17 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ECF0F1;
-    color: #2C3E50;
+    background-color: #F9F9F9; /* Soft light background */
+    color: #34495E; /* Darker shade for text */
 }
 
 header {
     display: flex;
     align-items: center;
     padding: 15px;
-    background-color: #2C3E50;
+    background-color: #FF6F61; /* Coral color */
     color: white;
-    border-bottom: 3px solid #E67E22;
+    border-bottom: 3px solid #F39C12; /* Bright orange */
 }
 
 .logo-container {
@@ -47,13 +47,13 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #0077b6; /* Warna biru untuk link */
+    color: #1ABC9C; /* Teal for links */
     text-decoration: none;
     font-weight: bold;
 }
 
 nav ul li a:hover {
-    color: #e0f7ff; /* Biru muda saat hover */
+    color: #16A085; /* Darker teal on hover */
     text-decoration: underline;
 }
 
@@ -62,7 +62,7 @@ main {
 }
 
 h2 {
-    color: #E67E22;
+    color: #E67E22; /* Bright orange */
     font-size: 28px;
     margin-top: 0;
 }
@@ -71,22 +71,22 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin: 25px 0;
-    background-color: #e0f7ff; /* Biru muda */
+    background-color: #FFDCE2; /* Light pink */
 }
 
 table, th, td {
-    border: 1px solid #0077b6; /* Biru tua */
+    border: 1px solid #FF6F61; /* Coral */
     padding: 12px;
 }
 
 caption {
     margin: 12px;
     font-weight: bold;
-    color: #0077b6; /* Biru untuk teks caption */
+    color: #FF6F61; /* Coral for caption */
 }
 
 th {
-    background-color: #0077b6; /* Biru tua */
+    background-color: #FF6F61; /* Coral */
     color: white;
     text-transform: uppercase;
 }
@@ -96,13 +96,13 @@ th, td {
 }
 
 .thick-border {
-    border: 4px solid #0077b6; /* Biru tebal untuk border */
+    border: 4px solid #FF6F61; /* Coral for thick border */
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #2C3E50;
+    background-color: #6FA4D8; /* Light blue */
     color: white;
     position: relative;
     bottom: 0;

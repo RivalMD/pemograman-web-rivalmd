@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "http://localhost/Pemrogramman-web-1/",
+            "url": "http://localhost/Pemograman-web-rivalmd/",
             "webRoot": "${workspaceFolder}"
         }
     ]
